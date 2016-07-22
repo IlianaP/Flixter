@@ -76,5 +76,7 @@ Flixter::Application.configure do
   # config.autoflush_log = false
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
-  config.log_formatter = ::Logger::Formatter.new
+  config.log_formatter = ::Logger::Formatter.new 
+
+  config.action_mailer.default_url_options = { host: 'https://flixter-iliana-paleva.herokuapp.com/', port: 3030 }
 end
