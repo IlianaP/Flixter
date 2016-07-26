@@ -40,7 +40,8 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails' 
 gem 'devise' 
-gem 'simple_form'
+gem 'simple_form' 
+gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
