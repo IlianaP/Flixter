@@ -42,8 +42,9 @@ gem 'sass-rails'
 gem 'devise' 
 gem 'simple_form' 
 gem 'carrierwave-aws' 
-gem 'mini_magick', '~> 4.3.1'
-
+gem 'mini_magick', '~> 4.3.1' 
+gem 'figaro'
+gem "fog" 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
