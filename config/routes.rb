@@ -5,7 +5,8 @@ Flixter::Application.routes.draw do
     resources :enrollments, only: :create 
   end
   resources :lessons, only: [:show]
-  namespace :instructor do
+  namespace :instructor do 
+    resources :lessons, only: [:update]
     resources :sections, only: [] do
       resources :lessons, only: [:new, :create]
     end
